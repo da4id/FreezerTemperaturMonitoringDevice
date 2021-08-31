@@ -6,6 +6,7 @@ sleep = 10
 try:
     log = logController.LogController()
 
+    log.readSensorInfosFromServer()
     log.readSensorValues()
     log.writeLogToServer()
 except:
