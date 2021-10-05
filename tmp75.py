@@ -1,5 +1,6 @@
 import time
 from machine import Pin, I2C
+import ustruct
 
 import myI2C
 
@@ -22,8 +23,9 @@ def init(i2cObj, adr):
 
 def readValue(i2cObj, adr):
     temp = i2cObj.readfrom(adr, 2)
+    a = ustruct.unpack(">bB", temp)
 
-    t = temp[0] + temp[1] / 256
+    t = a[0] + a[1] / 256
     return t
 
 
