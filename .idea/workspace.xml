@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cba26b2e-dcfb-4af2-82c9-883db54df6da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+    <list default="true" id="cba26b2e-dcfb-4af2-82c9-883db54df6da" name="Default Changelist" comment="- Daten von Server lesen&#10;- Objekt das von Server gelesen wird bearbeiten und wieder per Post zurückschicken">
+      <change afterPath="$PROJECT_DIR$/Esp8266/boardUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Esp8266/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Esp8266/http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Esp8266/logController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Esp8266/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Esp8266/myI2C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Esp8266/tmp75.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stefan/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/http.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logController.py" beforeDir="false" afterPath="$PROJECT_DIR$/logController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardUtil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myI2C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp75.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +63,21 @@
       <option name="presentableId" value="Default" />
       <updated>1629572938562</updated>
     </task>
+    <task id="LOCAL-00001" summary="- Daten von Server lesen&#10;- Objekt das von Server gelesen wird bearbeiten und wieder per Post zurückschicken">
+      <created>1630389049113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630389049113</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Zahlenwert bei negativen Temperaturen richtig umwanden (2er Komplement)">
+      <created>1633434649171</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633434649171</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,5 +92,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Daten von Server lesen&#10;- Objekt das von Server gelesen wird bearbeiten und wieder per Post zurückschicken" />
+    <MESSAGE value="- Zahlenwert bei negativen Temperaturen richtig umwanden (2er Komplement)" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Zahlenwert bei negativen Temperaturen richtig umwanden (2er Komplement)" />
   </component>
 </project>
